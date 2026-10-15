@@ -1,0 +1,29 @@
+@charset "UTF-8";
+*{margin:0;}
+.header a{text-decoration:none; font-size:25px; color:#50541d;}
+.header nav{background-color:#dde673; width:100%; padding:8px; display:flex; 
+			justify-content:center; gap:70px;}
+.header{width:100%; text-align:center; background-color:#50541d; color:white;}
+.header h1{padding:20px;}
+body{background-color:#f4f7cd;}
+h2{margin-top:200px; text-align:center;}
+footer{text-align:center;}
+.memberList_h3,.title{text-align:center; margin-top:30px; font-size:30px; }
+.listBox{text-align:center;}
+.listBox table,.AddBox table{display:flex; justify-content:center;border-spacing:20px;}
+table th{font-size:17px;}
+input[name = "address"]{width:400px;}
+input,select,selectgroup{box-sizing:border-box; width:150px; height:30px; padding:2px;}
+.btn{margin-top:50px; display:flex; justify-content:center; width:100%; gap:50px;}
+.btn button{padding:6px; border:none; width:100px; background-color:#dde673; font-size:17px;
+			color:#50541d; border-radius:10px; font-weight:bold; margin-bottom:10px;}
+button:hover{cursor:pointer;}
+.mainBox{width:100%; height:0 auto;margin-bottom:200px;}
+.mainBox h2:hover{
+	cursor:pointer;
+	transform: scale(1.05);
+}
+.mainBox h2 {
+    transition: 0.3s;
+}
+.editBtn{background-color:#dde673;color:#50541d; border-radius:10px;border:none; padding: 5px 8px;}
